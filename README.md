@@ -1,1 +1,2 @@
-Hi, I'm 10!
+lecture 2
+
