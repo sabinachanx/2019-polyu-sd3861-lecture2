@@ -1,1 +1,1 @@
-Hi it's still 10 here
+Lecture 2
