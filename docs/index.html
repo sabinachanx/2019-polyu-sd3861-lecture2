@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Animation</title>
 
-<link rel="stylesheet" type="text/css" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <style>
-        h1{
-            font-size:100px;
+        h1 {
+            font-size: 100px;
         }
     </style>
 </head>
+
 <body>
     <h1>My Demo</h1>
+    <h1>My Demo 2</h1>
     <svg class="pop" id="svg" width="300" height="300" viewbox="0 0 100 100">
         <filter id="blur">
-          <feGaussianBlur stdDeviation="1" />
+            <feGaussianBlur stdDeviation="1" />
         </filter>
         <path class="slidein" id="mountain" fill="#ab9457" d="" />
     </svg>
-    
+
     <button onclick="generateMountain()">Change</button>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
-            $('button').on('click', function(e){
+        $(document).ready(function () {
+            $('button').on('click', function (e) {
                 alert('New mountain is coming!');
             });
         });
     </script>
 
 </body>
+
 </html>
